@@ -1,0 +1,63 @@
+h1{
+    text-align: center;
+}
+.container{
+    border: 1px solid black;
+    width: 90%;
+    height: 78vh;
+    margin: 0 auto;
+    position: relative;
+}
+#startButton{
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+}
+.quiz{
+    text-align: center;
+}
+#nextButton{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.score{
+    border: 1px solid black;
+    font-size: 18px;
+    text-align: center;
+    width: fit-content;
+    margin: 10px auto;
+}
+.score p{
+    margin: 10px;
+}
+form{
+    margin: 0 auto;
+    width: 645px;
+    margin-top: 50px;
+}
+fieldset{
+    font-size: 20px;
+}
+fieldset label {
+    display: inline-flex;
+    justify-content: center;
+    background-color: #ddd;
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border: 2px solid #444;
+    border-radius: 4px;
+    margin: 10px;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+}
+.choiceSubmit{
+    font-size: 20px;
+    margin-top: 10px;
+}
